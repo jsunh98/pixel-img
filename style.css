@@ -27,7 +27,7 @@ body {
     background: url(chromeengine.jpg);
     background-size: 300px;
     background-repeat: no-repeat;
-    animation: animate 10s linear infinite;
+    animation: animate 20s linear infinite;
 }
 @keyframes animate {
     0%, 10% {
