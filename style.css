@@ -20,5 +20,35 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    
+    background: url(pexels-tima-miroshnichenko-6499009.jpg);
+    background-repeat: no-repeat;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate {
+    0%, 10% {
+        scale: 1;
+        rotate: 0deg;
+        translate: 0 0;
+        transform-origin: center;
+    } 20%, 30% {
+        scale: 0.5;
+        rotate: 360deg;
+        translate: 150px 0;
+        transform-origin: 100px;
+    } 40% {
+        scale: 0.5;
+        rotate: 720deg;
+        translate: -150px 0;
+        transform-origin: -100px;
+    } 90% {
+        scale: 2.5;
+        rotate: 0deg;
+        translate: 0 0;
+        transform-origin: center;
+    } 100% {
+        scale: 1;
+        rotate: 0deg;
+        translate: 0 0;
+        transform-origin: center;
+    }
 }
