@@ -22,8 +22,8 @@ body {
 }
 .box span {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     background: url(chromeengine.jpg);
     background-size: 300px;
     background-repeat: no-repeat;
