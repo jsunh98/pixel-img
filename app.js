@@ -11,8 +11,9 @@ function pixel(){
             document.getElementById('pixel').appendChild(span);
             span.style.left = j * 10 + 'px';
             span.style.top = i * 10 + 'px';
-            span.style.backgroundPosition = -j*10 + 'px' + -i*10 + 'px, center';
+            span.style.backgroundPosition = -j*10 + 'px ' + -i*10 + 'px, center';
             span.style.animationDelay = randomFixed + 's';
+            
         }
     }
 }
